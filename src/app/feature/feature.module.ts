@@ -5,13 +5,15 @@ import { FeatureRouter } from './feature.routes';
 import { ServicesComponent } from './services/services.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProfileComponent } from './services/profile/profile.component';
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    FeatureRouter
+    FeatureRouter,
+    ServicesModule
   ],
-  declarations: [HomeComponent, ServicesComponent, AboutusComponent, ContactComponent, ProfileComponent]
+  exports:[ServicesModule],
+  declarations: [HomeComponent, AboutusComponent, ContactComponent, ServicesComponent]
 })
 export class FeatureModule { }

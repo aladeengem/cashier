@@ -9,7 +9,7 @@
 
             </div>
             <ul class="nav-tabs">
-              <li>
+              <li [routerLink]= "['./profile']">
                 <a>Profile</a>
               </li>
               <li>
@@ -24,7 +24,7 @@
             </ul>
           </div>
           <div class="content">
-                
+                <router-outlet></router-outlet>
           </div>
         </div>
       </div>
