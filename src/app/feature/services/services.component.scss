@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    max-width: 1140px;
+    padding-top: 20px;
+    margin: auto;
+    .bgheader{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 100%;
+        height: auto;
+        background-color:#553D53;
+        background: url(https://www.scdn.co/i/account/overview/jumbotron-fp6.png) center right no-repeat;
+    }
+
+    .bottom-page{
+        grid-row: 2 / 3;
+        display: grid;
+        grid-template-columns: 25% 1fr;
+        height: 100%;
+        max-height: 900px;
+
+        .side-bar{
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            background-color: #222326;
+            padding-bottom: 30px;
+
+            .user-icon{
+                padding: 70px;
+                background: url("../../../assets/images/user.svg") no-repeat;
+                background-size: 70px 70px;
+                background-position: center;
+            }
+            .nav-tabs{
+                padding:0px;
+                a{
+                    font-size: 18px;
+                    font-family: 'Mukta', sans-serif;
+                    color: rgb(184, 178, 178);
+                }
+                li{
+                    padding: 15px 15px 15px 75px;
+                    cursor: pointer;
+                    list-style-type: none;
+                    list-style-position:inside;
+                    border-color: rgb(27, 26, 26);
+                    border-top: .02px groove;
+                    border-bottom: .02px groove;
+                }
+
+                li:hover{
+                    border-left: 8px solid;
+                    border-left-color: #1db954;
+                    
+                }
+                a:hover{
+                    color: white;
+                }
+            }
+        }
+        .content{
+            background-color:#F8F8F8;
+        }
+    }
+}
