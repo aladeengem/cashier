@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Baloo+Tammudu|Bree+Serif|Kanit:500|Varela+Round');
+
+.container{
+    .content-title{
+        margin-bottom: 24px;
+        border-bottom: .1px groove ;
+        border-bottom-color: rgb(255, 255, 255);
+        h1{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 24px;
+            color: #1DB954;
+        }
+    }
+    .profile{
+        padding: 30px 20px 30px 20px;
+        width: 100%;
+        max-width: 329px;
+        height: auto;
+        float: left;
+        background-color: white;
+        h3{
+            margin:0px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 20px;
+            color: #1DB954;
+            padding: 15px 0 20px 0;
+        }
+        label{
+            padding: 20px 0 20px 0;
+            color: gray;
+            font-family: 'Source Sans Pro', sans-serif;
+
+        }
+        p{
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        button{
+            width: 100%;
+            font-family: 'Kanit', sans-serif;
+            color:white;
+            border:none;
+            border-radius: 20px;
+            background-color: black;
+            padding: 8px;
+            cursor: pointer;
+            
+        }
+    }
+}

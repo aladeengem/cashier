@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta');
 
+.content-wrapper{
+    background-color: rgb(44, 53, 71);
+}
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 400px 1fr;
     width: 100%;
     max-width: 1140px;
-    padding-top: 20px;
     margin: auto;
     .bgheader{
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         width: 100%;
+        max-height: 400px;
         height: auto;
         background: url(https://www.scdn.co/i/account/overview/jumbotron-fp6.png) center right no-repeat;
         background-color:#553D53;
@@ -66,6 +69,7 @@
         }
         .content{
             background-color:#F8F8F8;
+            padding: 30px;
         }
     }
 }
